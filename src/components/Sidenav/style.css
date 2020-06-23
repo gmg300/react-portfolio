@@ -1,0 +1,19 @@
+.sidenav {
+  background-color: #2d3748;
+}
+.sidenav li:first-child {
+  margin-top: 2rem;
+}
+
+.sidenav li>a {
+  font-size: 2rem;
+  color: white;
+}
+
+.sidenav li>a:hover {
+  background-color: transparent;
+  font-size: 2rem;
+}
+
+
+

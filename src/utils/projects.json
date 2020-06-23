@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Password Generator",
+    "description": "",
+    "img": "public/../images/password-generator-s.jpg",
+    "repo": "https://github.com/gmg300/password-generator",
+    "page": "https://gmg300.github.io/password-generator/"
+  },
+  {
+    "title": "Code Quiz",
+    "description": "",
+    "img": "public/../images/code-quiz-s.jpg",
+    "repo": "https://github.com/gmg300/code-quiz",
+    "page": "https://gmg300.github.io/code-quiz/"
+  },
+  {
+    "title": "Work Day Planner",
+    "description": "",
+    "img": "public/../images/work-day-planner-s.jpg",
+    "repo": "https://github.com/gmg300/work-day-planner",
+    "page": "https://gmg300.github.io/work-day-planner/"
+  },
+  {
+    "title": "Weather Dashboard",
+    "description": "",
+    "img": "public/../images/weather-dashboard-s.jpg",
+    "repo": "https://github.com/gmg300/weather-dashboard",
+    "page": "https://gmg300.github.io/weather-dashboard/"
+  },
+  {
+    "title": "Shaker",
+    "description": "",
+    "img": "public/../images/shaker-s.jpg",
+    "repo": "https://github.com/gmg300/Shaker",
+    "page": "https://gmg300.github.io/Shaker/"
+  },
+  {
+    "title": "Note Taker",
+    "description": "",
+    "img": "public/../images/note-taker-s.jpg",
+    "repo": "https://github.com/gmg300/Note-Taker",
+    "page": "https://still-brook-31315.herokuapp.com/"
+  },
+  {
+    "title": "Team Profile Generator",
+    "description": "",
+    "img": "public/../images/team-profile-generator-s.jpg",
+    "repo": "https://github.com/gmg300/team-profile-generator",
+    "page": ""
+  },
+  {
+    "title": "The Coding Library",
+    "description": "",
+    "img": "public/../images/the-coding-library-s.jpg",
+    "repo": "https://github.com/gmg300/the-coding-library",
+    "page": "https://coding-resources-312.herokuapp.com/"
+  }
+]
