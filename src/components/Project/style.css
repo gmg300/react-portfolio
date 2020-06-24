@@ -1,6 +1,20 @@
-nav {
-  background-color: transparent;
-  box-shadow: none;
-  -webkit-box-shadow: none;
+h3 {
+  text-shadow: 2px 2px 10px #000;
+}
+
+img {
+  border: solid 5px white;
+}
+
+.btn-large {
+  margin: 1rem;
+  border: solid 1px rgb(16, 19, 20);
+}
+
+.btn-large, .btn-large:hover {
+  background-color: white;
+}
+.btn-large a, .btn-large a:hover {
+  color: rgb(16, 19, 20);
 }
 

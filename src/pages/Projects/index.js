@@ -7,15 +7,21 @@ function Projects() {
   const projects = API.getProjects();
   return (
     <div class="container">
-      <div class="title">PROJECTS</div>
+      <div class="title"
+          data-aos="fade-right"
+          data-aos-easing="ease-in-out-back"
+          data-aos-duration="800">
+          PROJECTS
+      </div>
       <section id="projects" class="row">
-      {projects.map(project => {
+      {projects.map((project,i) => {
         return <Project 
             img={project.img}
             title={project.title}
             description={project.description}
             repo={project.repo}
             page={project.page}
+            delay={i}
         />
       })}
       </section>
