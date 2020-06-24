@@ -4,9 +4,9 @@ import "./App.css";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
-import Profile from './pages/Profile';
-import Projects from './pages/Projects';
-import Connect from './pages/Connect';
+import Profile from "./pages/Profile";
+import Projects from "./pages/Projects";
+import Connect from "./pages/Connect";
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <div className="App">
         <Header />
         <Wrapper>
-        <Route exact path="/" component={Profile} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/connect" component={Connect} />
+          <Route exact path="/" component={Profile} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/connect" component={Connect} />
         </Wrapper>
         <Footer />
       </div>

@@ -4,3 +4,9 @@ nav {
   -webkit-box-shadow: none;
 }
 
+.location-label {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+
