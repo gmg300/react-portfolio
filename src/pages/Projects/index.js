@@ -6,14 +6,14 @@ import Project from '../../components/Project';
 function Projects() {
   const projects = API.getProjects();
   return (
-    <div class="container">
-      <div class="title"
+    <div className="container">
+      <div className="title"
           data-aos="fade-right"
           data-aos-easing="ease-in-out-back"
           data-aos-duration="800">
-          PROJECTS
+          THE WORK
       </div>
-      <section id="projects" class="row">
+      <section id="projects" className="row">
       {projects.map((project,i) => {
         return <Project 
             img={project.img}
@@ -21,7 +21,8 @@ function Projects() {
             description={project.description}
             repo={project.repo}
             page={project.page}
-            delay={i}
+            key={i}
+            delay={i * 100 + 1200}
         />
       })}
       </section>

@@ -14,9 +14,15 @@ function App() {
       <div className="App">
         <Header />
         <Wrapper>
-          <Route exact path="/" component={Profile} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/connect" component={Connect} />
+            <Route exact path={["/", "/profile"]}>
+              <Profile />
+            </Route>
+            <Route exact path="/projects">
+              <Projects />
+            </Route>
+            <Route exact path="/connect">
+              <Connect />
+            </Route> 
         </Wrapper>
         <Footer />
       </div>

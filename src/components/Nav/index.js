@@ -21,12 +21,12 @@ function Nav({label}) {
   return (
     <nav>
       <div className="nav-wrapper">
-        <a href="#" className="brand-logo center">{title}</a>
-        <a href="#" data-target="trigger" class="sidenav-trigger show-on-large">
-          <i class="fas fa-bars"></i>
-            <span class="location-label">{label}</span>
-        </a>
-        <ul id="nav-mobile" class="right">
+        <div className="brand-logo center">{title}</div>
+        <div data-target="trigger" className="sidenav-trigger show-on-large">
+          <i className="fas fa-bars"></i>
+            <span className="location-label">{label}</span>
+        </div>
+        <ul id="nav-mobile" className="right">
         </ul>
       </div>
     </nav>

@@ -8,7 +8,6 @@
 .sidenav li > a {
   font-size: 2rem;
   color: white;
-  display: inline;
 }
 
 .sidenav li > a:hover {
@@ -16,19 +15,22 @@
   font-size: 2rem;
 }
 
+
+/* https://codepen.io/tsimenis/pen/BKdENX */
 .sidenav li > a span {
   position: relative;
   display: block;
   cursor: pointer;
   display: inline;
+  padding: .5rem;
 }
 
 .sidenav li > a span:before, .sidenav li > a span:after {
   content: '';
   position: absolute;
   width: 0%;
-  height: 1px;
-  top: 50%;
+  height: 2px;
+  top: 55%;
   margin-top: -0.5px;
   background: #fff;
 }

@@ -1,32 +1,35 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
-
 function Sidenav() {
-
   return (
-       <ul class="sidenav" id="trigger">
+    <ul className="sidenav" id="trigger">
       <li>
-        <a
-          class="sidenav-close label strike"
+        <Link
+          className="sidenav-close label strike"
           data-text="Profile"
-          href="/">
+          to="/profile">
           <span>Profile</span>
-        </a>
+        </Link>
       </li>
       <li>
-        <a class="sidenav-close label strike"
-           data-text="Projects"
-           href="/projects">
+        <Link
+          className="sidenav-close label strike"
+          data-text="Projects"
+          to="/projects"
+        >
           <span>Projects</span>
-        </a>
+        </Link>
       </li>
       <li>
-        <a class="sidenav-close label strike"
-           data-text="Connect"
-           href="/connect">
+        <Link
+          className="sidenav-close label strike"
+          data-text="Connect"
+          to="/connect"
+        >
           <span>Connect</span>
-        </a>
+        </Link>
       </li>
     </ul>
   );
