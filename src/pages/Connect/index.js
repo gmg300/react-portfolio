@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Resume from '../../docs/GarrettGassensmith_Resume.pdf';
 
 function Connect() {
   AOS.init({
@@ -35,7 +36,7 @@ function Connect() {
           </a>
         </div>
         <div className="col s12 m4 center social-link" data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-duration="1800">
-          <a className="" href="public/../docs/GarrettGassensmith_Resume.pdf">
+          <a className="" href={Resume}>
             <i className="far fa-file-alt hvr-float"></i>
             <div className="icon">Resume</div>
           </a>

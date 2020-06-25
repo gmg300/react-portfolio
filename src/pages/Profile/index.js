@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import HeadshotJPG from '../../images/headshot.jpg';
+import CodeJPG from '../../images/code.jpg';
 
 function Profile() {
   AOS.init({
@@ -23,7 +25,7 @@ function Profile() {
         <div className="col l6" data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-duration="1500">
           <div className="image hvr-shrink">
             <img
-              src="public/../images/headshot.jpg"
+              src={HeadshotJPG}
               alt="Garrett Gassensmith"
             />
             <div className="text">
@@ -40,7 +42,7 @@ function Profile() {
         </div>
         <div className="col l6" data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-duration="1800">
           <div className="image hvr-shrink">
-            <img src="public/../images/code.jpg" alt="Garrett Gassensmith" />
+            <img src={CodeJPG} alt="Garrett Gassensmith" />
             <div className="text">
               <p>Technologies</p>
               <ul>
