@@ -44,15 +44,30 @@ function Profile() {
           <div className="image hvr-shrink">
             <img src={CodeJPG} alt="Garrett Gassensmith" />
             <div className="text">
-              <p>Technologies</p>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>MySQL</li>
-              </ul>
+              <h4>Technologies</h4>
+              <div class="row">
+              <div class="col s6 m6 l6 tech-list">
+                <ul>
+                  <li>React</li>
+                  <li>Javascript</li>
+                  <li>HTML/CSS</li>
+                  <li>Express</li>
+                  <li>Node</li>
+                  <li>MySQL/Sequelize</li>
+                  <li>MongoDB/Mongoose</li>
+                </ul>
+              </div>
+              <div class="col s6 m6 l6 tech-list">
+                <ul>
+                  <li>Handlebars</li>
+                  <li>JQuery</li>
+                  <li>CampusPress</li>
+                  <li>MJML</li>
+                  <li>Bootstrap</li>
+                  <li>Materialize</li>
+                </ul>
+              </div>
+            </div>
             </div>
           </div>
         </div>

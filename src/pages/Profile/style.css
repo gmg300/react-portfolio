@@ -2,6 +2,10 @@ img {
   border: solid 5px white;
 }
 
+.row .col.tech-list {
+  background-color: transparent;
+}
+
 .image {
   position:relative;
   display:inline-block;
@@ -28,9 +32,7 @@ img, i {
   text-align: center;
   transition: .3s ease-in-out all;
 }
-.text p:first-child {
-  font-weight: bold;
-}
+
 .image:hover img, .image:hover i {
   opacity:.3;
 }
@@ -46,6 +48,7 @@ img, i {
   font-weight: bold;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  text-shadow: 2px 2px 10px #000;
 }
 
 /* Grow */

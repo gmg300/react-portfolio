@@ -24,9 +24,7 @@ img, i {
   text-align: center;
   transition: .3s ease-in-out all;
 }
-.text p:first-child {
-  font-weight: bold;
-}
+
 .image:hover img, .image:hover i {
   opacity:.3;
 }
