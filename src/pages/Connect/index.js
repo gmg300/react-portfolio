@@ -35,7 +35,7 @@ function Connect() {
           </a>
         </div>
         <div className="col s12 m4 center social-link" data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-duration="1800">
-          <a className="" href="docs/GarrettGassensmith_Resume_200330.pdf">
+          <a className="" href="public/../docs/GarrettGassensmith_Resume.pdf">
             <i className="far fa-file-alt hvr-float"></i>
             <div className="icon">Resume</div>
           </a>

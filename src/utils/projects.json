@@ -14,15 +14,36 @@
     "page": "https://gmg300.github.io/Shaker/"
   },
   {
+    "title": "User Directory",
+    "description": "React app for viewing, sorting and filtering through user information",
+    "img": "public/../images/user-directory-s.jpg",
+    "repo": "https://github.com/gmg300/user-directory",
+    "page": "https://gmg300.github.io/user-directory/"
+  },
+  {
+    "title": "Progressive Budget",
+    "description": "Budget tracking PWA allowing users to record deposits, withdrawals and account balance on and offline",
+    "img": "public/../images/budget-tracker-s.jpg",
+    "repo": "https://github.com/gmg300/progressive-budget",
+    "page": "https://infinite-temple-98110.herokuapp.com/"
+  },
+  {
+    "title": "Fitness Tracker",
+    "description": "allows users to enter create new workouts, enter exercises and see total statistics",
+    "img": "public/../images/fitness-tracker-s.jpg",
+    "repo": "https://github.com/gmg300/fitness-tracker",
+    "page": "https://glacial-dusk-90562.herokuapp.com/"
+  },
+  {
     "title": "Team Profile Generator",
-    "description": "CLI for taking in employee data and returning an organized HTML page for your team.",
+    "description": "CLI for taking in employee data and returning an organized HTML page for your team",
     "img": "public/../images/team-profile-generator-s.jpg",
     "repo": "https://github.com/gmg300/team-profile-generator",
     "page": ""
   },
   {
     "title": "Weather Dashboard",
-    "description": "Shows basic weather data and a 5-day forecast for a city based on user search.",
+    "description": "Shows basic weather data and a 5-day forecast for a city based on user search",
     "img": "public/../images/weather-dashboard-s.jpg",
     "repo": "https://github.com/gmg300/weather-dashboard",
     "page": "https://gmg300.github.io/weather-dashboard/"
@@ -36,14 +57,14 @@
   },
   {
     "title": "Password Generator",
-    "description": "Web app using JavaScript to create randomly generated passwords.",
+    "description": "Web app using JavaScript to create randomly generated passwords",
     "img": "public/../images/password-generator-s.jpg",
     "repo": "https://github.com/gmg300/password-generator",
     "page": "https://gmg300.github.io/password-generator/"
   },
   {
     "title": "Code Quiz",
-    "description": "Ten question multiple choice quiz with a timer and highscore board.",
+    "description": "Ten question multiple choice quiz with a timer and highscore board",
     "img": "public/../images/code-quiz-s.jpg",
     "repo": "https://github.com/gmg300/code-quiz",
     "page": "https://gmg300.github.io/code-quiz/"
