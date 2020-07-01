@@ -1,5 +1,12 @@
 [
   {
+    "title": "Google Books Search",
+    "description": "MERN stack app that allows users to search and save books through the Google Books API",
+    "img": "/google-books-search-s.jpg",
+    "repo": "https://github.com/gmg300/google-books-search",
+    "page": "https://remembrance-drake-98124.herokuapp.com/"
+  },
+  {
     "title": "The Coding Library",
     "description": "Full-stack web app for creating and saving learning resource links",
     "img": "/the-coding-library-s.jpg",

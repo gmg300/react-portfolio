@@ -1,4 +1,4 @@
-import projects from './projects.json';
+import projects from '../db/projects.json';
 
 export default {
     getProjects: function() {

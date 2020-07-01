@@ -31,7 +31,7 @@ function Project({ img, title, description, repo, page, delay }) {
                 Github
               </a>
             </p>
-            <p className="btn project-link hvr-grow">
+            <p className={page === "" ? "hide" : "btn project-link hvr-grow"}>
               <a className="" href={page}>
                 Live Page
               </a>
