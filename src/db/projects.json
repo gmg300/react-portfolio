@@ -1,5 +1,12 @@
 [
   {
+    "title": "Fetch",
+    "description": "MERN stack web app for connecting dog-owners and fostering new furry friendships. Raise! Da! Woof!",
+    "img": "/fetch-s.jpg",
+    "repo": "https://github.com/raise-da-woof/fetch",
+    "page": "https://fetch-woof-312.herokuapp.com/"
+  },
+  {
     "title": "Google Books Search",
     "description": "MERN stack app that allows users to search and save books through the Google Books API",
     "img": "/google-books-search-s.jpg",

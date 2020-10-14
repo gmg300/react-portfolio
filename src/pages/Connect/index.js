@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Resume from '../../docs/GarrettGassensmith_Resume.pdf';
+import Resume from '../../docs/GGassensmith_Resume.pdf';
 
 function Connect() {
   AOS.init({
